@@ -1,0 +1,176 @@
+<!docTYPE html>
+
+<html large="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA Compatible" content="IE=edge">
+        <meta name="vieport"content="width=device-width, initial-scale=1.0">
+        <title>Google login form</title>
+        <style>
+            
+            body{
+                margin-bottom:50;
+                padding:0;
+                background-size:cover;
+                font-family:'google sans ','noto snas myanmar UI ','courier new' ,courier,monospace;
+                position: center;
+                background-position: center;
+                margin:0;
+
+               
+             
+            }
+            .main{
+                align-items:center;
+                margin:10px;
+            }
+           
+            .box{
+                position:absolute;
+                top:50%;
+                left:50%;
+                transform:translate(-50%,-50%);
+                width:30rem;
+                padding:3.5rem;
+                box-sizing:border-box;
+                border:1px solid black;
+
+                -webkit-border-radius:8px;
+
+                text-align:center;
+            }
+            
+            
+          
+           
+            .box h2{
+                margin:0 0 -0.125rem ;
+                padding:0;
+                color:#1b1a1a;
+                text-align:center;
+                font-size:24px;
+                font-weight:bold;
+                
+
+            }
+            .box p{
+                font-size:16px;
+                font-weight:normal;
+                letter-spacing: 1px;
+                line-height:1.5;
+                margin-bottom:25px;
+                text-align:center;
+
+
+            }
+            .box .inputbox{
+                position:relative;
+                font-size: 15px;
+            }
+            .box .inputbox input{
+                width:93%;
+                padding:0.625rem 10px;
+                font-size:0.5cm;
+                letter-spacing:0.062rem;
+                margin-bottom:1.875rem;
+                border:1px solid #ccc;
+                background:transparent;
+                border-radius:4px;
+            }
+            .box.inputbox label{
+                position:relative;
+            }
+            .box .inputbox label{
+                position:absolute;
+                top:0;
+                left:10px;
+                padding:0.6rem 0;
+                font-size:1rem;
+                color:#eee;
+                pointer-events:none;
+                transition:0.3s;
+                    
+            }
+            .forget{
+                margin-top:20px;
+            }
+          
+            .forget button{
+                border-radius:4px;
+                color:#1a73e8;
+                display:inline-block;
+                font-weight:500;
+                letter-spacing: .25px;
+                outline:0;
+                position:relative;
+                background-color:transparent;
+                cursor:pointer;
+                font-size:inherit;
+                padding:0;
+                text-align:left;
+                border:0;
+                
+            }
+            .box input[type="submit"] {
+                border:none;
+                outline:none;
+                color:white;
+                background-color:blue;
+                padding:0.625rem 1.25rem;
+                cursor:pointer;;
+                border-radius: 0.312rem;
+                font-size:1rem;
+                float:right;
+            }
+            .box input[type="submit"]:hover {
+                background: color #287ae6;
+            }
+            .main .google{
+              padding-left: 600px;
+              padding-top: 60px;
+              
+              font-family: 400px;
+              font-size:20px;
+            }
+           
+        
+        </style>
+    </head>
+    <body>
+       
+       <div class="main">
+        <p class="google">
+        <span style="color:blue;font-size: 30px"> G</span>
+  <span style="color:red ;font-size: 30px">o</span>
+        <span style="color:yellow ;font-size: 30px">o</span>
+        <span style="color:blue ;font-size: 30px">g</span>
+        <span style="color:green ;font-size: 30px">l</span>
+        <span style="color:red ;font-size: 30px">e</span>
+        <br></p>
+    </div>
+        <div class="box">
+            <h1>sign in</h1>
+            <p> use Google account</p>
+       
+            <form action="a">
+                <div class="inputbox">
+                    <input type ="email" placeholder="Email OR phone">
+                    <label for ="email"> </label>
+
+                </div>
+                <div class="inputbox">
+                    <input type="password" name="password" placeholder="password" >
+                    <lebal for="password" ></lebal>
+
+                </div>
+                <div class="forget"> 
+                    <button> forget your password?</button>
+                </div>
+                <input type="submit" name="sign-in" value="Sign In">
+                
+                
+            </form>
+        </div>
+    
+    </body>
+</html>
